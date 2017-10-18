@@ -1738,6 +1738,8 @@ ul#filters li button.btn-link.active {
 }
 .services-1 .icon-code:before {
   content: "\f121";
+}.services-1 .icon-agent:before {
+  content: "\f21b";
 }
 .services-1 .icon-meter:before {
   content: "\f0e4";
@@ -2858,4 +2860,42 @@ p.demo-text {
 
 .new-objective-column{
   margin-bottom: 20px;
+}
+
+.sub-nav{
+  display: none;
+  position: absolute;
+  background-color: black;
+}
+a:hover + .sub-nav{
+  display: block;
+}
+
+.sub-nav:hover{
+  display: block;
+}
+.top-nav-collapse .sub-nav{
+  width: 250px;
+  background-color: #3e454e !important;
+  padding: 20px 30px 30px 30px;
+}
+.sub-nav{
+  width: 250px;
+  padding: 0px 30px 30px 30px;
+  list-style-type: none;
+  line-height: 2;
+  animation-name: sub-menu-apper;
+  animation-duration: 0.5s;
+}
+.sub-nav a:hover{
+  color: whitesmoke;
+}
+
+@keyframes sub-menu-apper {
+  from {
+    margin-top: -20px;
+  }
+  to{
+    margin-top: 0px;
+  }
 }
