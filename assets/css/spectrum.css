@@ -1739,6 +1739,18 @@ ul#filters li button.btn-link.active {
 .services-1 .icon-code:before {
   content: "\f121";
 }
+.services-1 .icon-meter:before {
+  content: "\f0e4";
+}
+.services-1 .icon-accurate:before {
+  content: "\f084";
+}
+.services-1 .icon-clock:before {
+  content: "\f017";
+}
+.services-1 .icon-sales:before {
+  content: "\f080";
+}
 .services-1 .icon-mobile:before {
   content: "\f10b";
 }
@@ -1756,6 +1768,11 @@ ul#filters li button.btn-link.active {
 }
 .services-1 .icon-flag:before {
   content: "\f024";
+}
+.icon-home:before {
+  content: "\f015";
+  font-family: FontAwesome;
+  padding-right: 10px;
 }
 .services-1.bg-dark .icon,
 .services-1.bg-primary .icon,
@@ -2831,4 +2848,14 @@ p.demo-text {
   font-family: 'Pacifico', serif;
   margin-top: 20px;
   font-size: 25px;
+}
+
+.list-style1 li{
+  font-size: 18px;
+  line-height: 1.6;
+  padding-bottom: 10px;
+}
+
+.new-objective-column{
+  margin-bottom: 20px;
 }
