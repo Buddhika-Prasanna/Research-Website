@@ -921,7 +921,7 @@ a.light-text:focus {
 }
 @media (min-width: 767px) {
   .about-img-1 {
-    background-image: url(../img/demo-portraits/portrait-1.jpg);
+    background-image: url(../img/about-us/buddhika-prasanna.jpg);
   }
   .about-img-2 {
     background-image: url(../img/demo-portraits/portrait-2.jpg);
@@ -932,6 +932,13 @@ a.light-text:focus {
   .about-img-4 {
     background-image: url(../img/demo-portraits/portrait-4.jpg);
   }
+}
+.list-contact{
+  list-style-type: none;
+  line-height: 2;
+}
+.list-contact li{
+  font-weight: 600;
 }
 .blog-1 .blog-col {
   max-width: 400px;
@@ -1740,6 +1747,10 @@ ul#filters li button.btn-link.active {
   content: "\f121";
 }.services-1 .icon-agent:before {
   content: "\f21b";
+}.services-1 .icon-document:before {
+  content: "\f15c";
+}.services-1 .icon-prasentation:before {
+  content: "\f1e7";
 }
 .services-1 .icon-meter:before {
   content: "\f0e4";
@@ -2863,6 +2874,7 @@ p.demo-text {
 }
 
 .sub-nav{
+  width: 400px;
   display: none;
   position: absolute;
   background-color: black;
@@ -2875,7 +2887,7 @@ a:hover + .sub-nav{
   display: block;
 }
 .top-nav-collapse .sub-nav{
-  width: 250px;
+  width: 400px;
   background-color: #3e454e !important;
   padding: 20px 30px 30px 30px;
 }
@@ -2898,4 +2910,16 @@ a:hover + .sub-nav{
   to{
     margin-top: 0px;
   }
+}
+.footer-menu li{
+  list-style-type: none;
+  color: white;
+}
+.footer-menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.navigation{
+  padding-bottom: 0px;
 }
