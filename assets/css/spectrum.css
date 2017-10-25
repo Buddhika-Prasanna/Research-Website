@@ -2901,6 +2901,9 @@ a:hover + .sub-nav{
 }
 .sub-nav a:hover{
   color: whitesmoke;
+  border-bottom: 1px solid #6BB5D2;
+}
+.sub-nav a{
 }
 
 @keyframes sub-menu-apper {
@@ -2923,3 +2926,5 @@ a:hover + .sub-nav{
 .navigation{
   padding-bottom: 0px;
 }
+
+
